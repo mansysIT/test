@@ -16,7 +16,7 @@ if( isset($_REQUEST['log']) ){
         }
            header("Location: /index.php");
     }else{
-    header("Location: /resources/views/login.blade.php");
+   // header("Location: /resources/views/login.blade.php");
     }
 }
 ?>
